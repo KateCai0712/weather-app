@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #dadada;
+}
+
+.container {
+    max-width: 350px;
+    max-height: 680px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('/HW1/assets/background.jpg');
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 35px;
+    color: #fdfdfd;
+}
+
+.temperature {
+    text-align: center;
+    padding-bottom: 2px;
+    font-size: 60px;
+    margin: 10px 0;
+    color: #e89f85;
+}
+
+.summary {
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.hourly-forecast {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.hourly-forecast div {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.hourly-forecast img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.comparison {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.comparison h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.comparison div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.trend-graph {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.trend-graph h3 {
+    margin: 0 0 10px;
+    color: #787878;
+    font-size: 20px;
+    text-align: center;
+}
+
+.trend-graph img {
+    width: 100%;
+    border-radius: 10px;
+}
+
