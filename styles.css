@@ -1,3 +1,4 @@
+/* Background image sourced from Huawei Central: https://www.huaweicentral.com/download-apple-ios-16-wallpapers-in-full-resolution/ */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,6 +9,7 @@ body {
     color: #dadada;
 }
 
+/* Hourly weather icons sourced from Shutterstock: https://www.shutterstock.com/zh/image-vector/types-weather-conditions-sunny-cloudy-windy-2209304703 */
 .container {
     max-width: 350px;
     max-height: 680px;
